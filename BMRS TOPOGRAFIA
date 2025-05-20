@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>BMRS Topografia</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;500;700&display=swap" rel="stylesheet">
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+    body {
+      font-family: 'Roboto', sans-serif;
+      line-height: 1.6;
+      background-color: #f9f9f9;
+      color: #333;
+    }
+    header {
+      background-color: #003366;
+      color: white;
+      padding: 60px 20px;
+      text-align: center;
+    }
+    header h1 {
+      font-size: 2.5rem;
+    }
+    header p {
+      font-size: 1.2rem;
+      margin-top: 10px;
+    }
+    nav {
+      background: #002244;
+      color: white;
+      text-align: center;
+      padding: 12px 0;
+    }
+    nav a {
+      color: white;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    section {
+      padding: 60px 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
+    h2 {
+      color: #003366;
+      font-size: 2rem;
+      margin-bottom: 20px;
+      text-align: center;
+    }
+    .servico {
+      background: white;
+      padding: 20px;
+      margin-bottom: 20px;
+      border-radius: 8px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    }
+    .servico h3 {
+      color: #002244;
+      margin-bottom: 10px;
+    }
+    .contato {
+      background: #e9f1f7;
+      border-top: 4px solid #003366;
+      text-align: center;
+    }
+    .botao {
+      display: inline-block;
+      padding: 12px 24px;
+      background-color: #003366;
+      color: white;
+      text-decoration: none;
+      margin: 10px;
+      border-radius: 8px;
+      font-weight: bold;
+      transition: background 0.3s;
+    }
+    .botao:hover {
+      background-color: #0055aa;
+    }
+    footer {
+      background: #002244;
+      color: white;
+      text-align: center;
+      padding: 20px;
+    }
+    @media (max-width: 600px) {
+      header h1 {
+        font-size: 2rem;
+      }
+      .botao {
+        width: 80%;
+        font-size: 1rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>BMRS Topografia</h1>
+    <p>Precisão, agilidade e excelência em serviços topográficos em todo o Brasil</p>
+  </header>
+
+  <nav>
+    <a href="#servicos">Serviços</a>
+    <a href="#contato">Contato</a>
+  </nav>
+
+  <section id="servicos">
+    <h2>Serviços</h2>
+    <div class="servico">
+      <h3>1. Levantamento Topográfico Planialtimétrico</h3>
+      <p>Mapeamento completo do terreno com coordenadas horizontais e altimétricas. Ideal para obras e projetos civis.</p>
+    </div>
+    <div class="servico">
+      <h3>2. Locação de Obras</h3>
+      <p>Marcação em campo de projetos arquitetônicos e estruturais com precisão milimétrica.</p>
+    </div>
+    <div class="servico">
+      <h3>3. Levantamento Cadastral Urbano e Rural</h3>
+      <p>Medição de lotes, glebas e imóveis com documentação para registro, regularização ou desmembramento.</p>
+    </div>
+    <div class="servico">
+      <h3>4. Georreferenciamento de Imóveis Rurais (SIGEF/INCRA)</h3>
+      <p>Atendimento à norma técnica do INCRA com ART e entrega completa para cartórios.</p>
+    </div>
+    <div class="servico">
+      <h3>5. Nivelamento Geométrico de Precisão</h3>
+      <p>Medições altimétricas para projetos de drenagem, pavimentação e fundações.</p>
+    </div>
+    <div class="servico">
+      <h3>6. Topografia com Drone (Aerolevantamento)</h3>
+      <p>Mapas e ortofotos atualizados com rapidez e baixo custo. Geração de MDT/MDS e curvas de nível.</p>
+    </div>
+    <div class="servico">
+      <h3>7. Monitoramento de Estruturas e Taludes</h3>
+      <p>Controle de recalques e movimentações para barragens, encostas e obras de grande porte.</p>
+    </div>
+    <div class="servico">
+      <h3>8. Projetos e Desenhos Técnicos em CAD</h3>
+      <p>Elaboração de plantas, cortes, perfis e memoriais descritivos com entrega digital e impressa.</p>
+    </div>
+  </section>
+
+  <section id="contato" class="contato">
+    <h2>Contato</h2>
+    <p>Atendemos em todo o Brasil. Fale conosco pelos canais abaixo:</p>
+    <a class="botao" href="https://wa.me/5571996090777" target="_blank">WhatsApp</a>
+    <a class="botao" href="mailto:contato.bmrstopografia@gmail.com">E-mail</a>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 BMRS Topografia | Todos os direitos reservados</p>
+  </footer>
+</body>
+</html>
